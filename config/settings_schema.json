@@ -723,6 +723,27 @@
     ]
   },
   {
+    "name": "Footer Address",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Footer Address"
+      },
+      {
+        "type": "checkbox",
+        "id": "display_footer_add",
+        "label": "Display Footer Address",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "footer_add_field",
+        "label": "Footer Address",
+        "info": "Enter footer address"
+      }
+    ]
+  },
+  {
     "name": "Social media",
     "settings": [
       {
