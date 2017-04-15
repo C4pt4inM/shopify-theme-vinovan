@@ -268,7 +268,6 @@
   @include prefix(justify-content, $justify, webkit ms spec);
 }
 
-
 /*================ VARIABLES ================*/
 /*============================================================================
   Grid Breakpoints and Class Names
@@ -3555,6 +3554,8 @@ h1.product-single__title {
   background-color: $color-body;
   position: relative;
   padding: 0 $gutter-site;
+  max-width: 1200px;
+  margin: 0 auto;
 
   @include media-query($small) {
     border-bottom: 1px solid $color-border;
@@ -4912,10 +4913,10 @@ $toolbar-height-small: 46px;
 
 .site-footer__social-icons,
 .site-footer__copyright {
-  margin-top: $section-spacing-small;
+  margin-top: 20px ;//$section-spacing-small;
 
   @include media-query($medium-up) {
-    margin-top: $section-spacing;
+    margin-top: 20px; // $section-spacing;
   }
 }
 

@@ -1,10 +1,10 @@
 {
   "current": {
     "color_text": "#3d4246",
-    "color_body_text": "#788188",
+    "color_body_text": "#030303",
     "color_sale_text": "#7796A8",
     "color_borders": "#e8e9eb",
-    "color_button": "#7796A8",
+    "color_button": "#60605d",
     "color_button_text": "#fff",
     "color_small_button": "#fff",
     "color_small_button_text": "#3d4246",
@@ -13,14 +13,14 @@
     "color_image_overlay_text": "#fff",
     "color_image_overlay": "#3d4246",
     "image_overlay_opacity": "0.25",
-    "color_body_bg": "#fff",
+    "color_body_bg": "#f5f5ee",
     "type_header_family": "Google_Work+Sans_600_sans",
     "type_header_base_size": "26px",
     "type_base_family": "Google_Work+Sans_400_sans",
     "type_base_size": "16px",
     "type_bold_product_titles": false,
     "display_footer_add": true,
-    "footer_add_field": "Copyright 2017 Vino & Van Gogh.  1818 Augusta Street Greenville, SC 29605 864.434.3054",
+    "footer_add_field": "1818 Augusta Street Greenville, SC 29605 864.434.3054",
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
@@ -52,8 +52,8 @@
         "type": "header",
         "settings": {
           "align_logo": "left",
-          "logo": "",
-          "logo_max_width": "100",
+          "logo": "shopify:\/\/shop_images\/vanvon.png",
+          "logo_max_width": "200",
           "main_linklist": "main-menu",
           "message": false,
           "message_text": "Announce something here",
@@ -84,35 +84,50 @@
           "show_payment_icons": false
         }
       },
-      "1492156165227": {
-        "type": "custom-content",
+      "1492255593395": {
+        "type": "cus-content-tmp",
         "blocks": {
-          "1492156202695": {
-            "type": "html",
+          "1492255593395-0": {
+            "type": "text",
             "settings": {
-              "code": "<h2>The perfect gift for any occasion.<\/h2>\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales lorem nisl, ut elementum nisl ornare quis. Quisque tristique elit at tincidunt suscipit.\r\n\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales lorem nisl, ut elementum nisl ornare quis. Quisque tristique elit at tincidunt suscipit.\r\n<p><a href=\"#\" class=\"btn btn-primary\">Buy now<\/a><\/p>",
+              "title": "THE PERFECT GIFT FOR ANY OCCASION.",
+              "heading-sel": "h2",
+              "content-body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales lorem nisl, ut elementum nisl ornare quis. Quisque tristique elit at tincidunt suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales lorem nisl, ut elementum nisl ornare quis. Quisque tristique elit at tincidunt suscipit<\/p>",
+              "button-text": "Buy Now",
+              "button-url": "http:\/\/www.yourbuttonurl.com",
+              "open-tab": true,
               "width": "33%"
             }
           },
-          "1492156241039": {
-            "type": "html",
+          "1492255622406": {
+            "type": "text",
             "settings": {
-              "code": "<h2>Read the latest from the blog.<\/h2>\r\nQuisque elit nunc, porttitor quis rhoncus non, tincidunt et quam. Donec rhoncus urna non lectus consequat facilisis. Sed nunc quam, tempor in consequat nec, elementum ut ipsum. Cras a dolor in mi fermentum pretium.\r\n<p><a href=\"#\" class=\"btn btn-primary\">Buy now<\/a><\/p>",
+              "title": "Read the latest from the blog.",
+              "heading-sel": "h2",
+              "content-body": "<p>Quisque elit nunc, porttitor quis rhoncus non, tincidunt et quam. Donec rhoncus urna non lectus consequat facilisis. Sed nunc quam, tempor in consequat nec, elementum ut ipsum. Cras a dolor in mi fermentum pretium.<\/p>",
+              "button-text": "READ MORE »",
+              "button-url": "http:\/\/www.yourbuttonurl.com",
+              "open-tab": false,
               "width": "33%"
             }
           },
-          "1492156246871": {
-            "type": "html",
+          "1492255815901": {
+            "type": "text",
             "settings": {
-              "code": "<h2>Sign up for our newsletter.<\/h2>\r\nProin eget velit non libero lobortis euismod eget quis tellus. Sed nec massa ac ante vehicula luctus. Duis elementum erat et nisl aliquam bibendum at eu orci. Sed id pharetra mauris.\r\n<p><a href=\"#\" class=\"btn btn-primary\">Buy now<\/a><\/p>",
+              "title": "SIGN UP FOR OUR NEWSLETTER.",
+              "heading-sel": "h2",
+              "content-body": "<p>Proin eget velit non libero lobortis euismod eget quis tellus. Sed nec massa ac ante vehicula luctus. Duis elementum erat et nisl aliquam bibendum at eu orci. Sed id pharetra mauris.<\/p>",
+              "button-text": "Button",
+              "button-url": "http:\/\/www.yourbuttonurl.com",
+              "open-tab": false,
               "width": "33%"
             }
           }
         },
         "block_order": [
-          "1492156202695",
-          "1492156241039",
-          "1492156246871"
+          "1492255593395-0",
+          "1492255622406",
+          "1492255815901"
         ],
         "settings": {
           "title": ""
@@ -121,7 +136,7 @@
     },
     "content_for_index": [
       "hero",
-      "1492156165227"
+      "1492255593395"
     ]
   },
   "presets": {
